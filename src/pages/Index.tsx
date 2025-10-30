@@ -193,7 +193,7 @@ const Index = () => {
               📦 O que você vai receber
             </h2>
             <p className="text-sm md:text-base text-muted-foreground px-4">
-              400 atividades Bíblicas para transformar o ensino cristão
+              + DE 400 atividades Bíblicas para transformar o ensino cristão
             </p>
           </div>
 
