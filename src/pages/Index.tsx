@@ -2,6 +2,8 @@ import { ContentCard } from "@/components/ContentCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { BonusCard } from "@/components/BonusCard";
 import { CTAButton } from "@/components/CTAButton";
+import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 import { 
   BookOpen, 
   Palette, 
@@ -198,39 +200,84 @@ const Index = () => {
           </div>
 
 
-          {/* Activity Showcase Grid */}
+          {/* Activity Showcase Carousel */}
           <div className="mb-8 md:mb-12">
             <h3 className="text-lg md:text-2xl font-heading font-bold text-center mb-6 text-foreground">
               Exemplos de Atividades Incluídas
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={activity1} alt="Atividade Bíblica 1" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={activity2} alt="Atividade Bíblica 2" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={activity3} alt="Atividade Bíblica 3" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={activity4} alt="Atividade Bíblica 4" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={activity5} alt="Atividade Bíblica 5" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={quizBiblico} alt="Quiz Bíblico" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border">
-                <img src={aprendendoOrar} alt="Aprendendo a Orar" className="w-full h-full object-cover" />
-              </div>
-              <div className="rounded-lg overflow-hidden shadow-card border border-border bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center p-4">
-                <p className="text-center font-bold text-foreground text-sm md:text-base">
-                  +400<br />Atividades
-                </p>
-              </div>
-            </div>
+            <Carousel
+              opts={{
+                align: "start",
+                loop: true,
+              }}
+              plugins={[
+                Autoplay({
+                  delay: 2500,
+                }),
+              ]}
+              className="w-full max-w-5xl mx-auto"
+            >
+              <CarouselContent>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={activity1} alt="Atividade Bíblica 1" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={activity2} alt="Atividade Bíblica 2" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={activity3} alt="Atividade Bíblica 3" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={activity4} alt="Atividade Bíblica 4" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={activity5} alt="Atividade Bíblica 5" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={quizBiblico} alt="Quiz Bíblico" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border">
+                      <img src={aprendendoOrar} alt="Aprendendo a Orar" className="w-full h-full object-cover" />
+                    </div>
+                  </div>
+                </CarouselItem>
+                <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                  <div className="p-2">
+                    <div className="rounded-lg overflow-hidden shadow-card border border-border bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center p-8 min-h-[200px]">
+                      <p className="text-center font-bold text-foreground text-lg md:text-xl">
+                        +400<br />Atividades
+                      </p>
+                    </div>
+                  </div>
+                </CarouselItem>
+              </CarouselContent>
+            </Carousel>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
