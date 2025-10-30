@@ -46,11 +46,11 @@ const Index = () => {
               </p>
               <p className="text-base md:text-lg font-semibold">
                 ✨ Tudo 100% pronto para você:\n
-✅ Página de vendas completa\n
-✅ Criativos e copys profissionais \n
-✅ Artes exclusivas para área de membros \n
-✅ Licença PLR TOTAL — revenda com liberdade total \n
-✅ Plano de Ação com estratégias de venda testadas e aprovadas \n
+✅ Página de vendas completa
+✅ Criativos e copys profissionais
+✅ Artes exclusivas para área de membros
+✅ Licença PLR TOTAL — revenda com liberdade total
+✅ Plano de Ação com estratégias de venda testadas e aprovadas
 
 💡 Comece hoje, multiplique seu propósito e viva do que você acredita!
               </p>
