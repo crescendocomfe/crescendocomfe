@@ -94,7 +94,7 @@ const Index = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0 mt-1 text-success" />
                 <p className="text-sm md:text-base">
-                  Está cansada de lutar para equilibrar as contas — e ver o dinheiro acabar antes do mês?
+                  Está cansada de lutar para equilibrar as contas e ver o dinheiro acabar antes do mês?
                 </p>
               </div>
               <div className="flex items-start space-x-3">
@@ -112,7 +112,7 @@ const Index = () => {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0 mt-1 text-success" />
                 <p className="text-sm md:text-base">
-                  Já tentou vender algo que não representava sua fé — e ainda teve pouco ou nenhum resultado?
+                  Já tentou vender algo que não representava sua fé e ainda teve pouco ou nenhum resultado?
                 </p>
               </div>
               <div className="flex items-start space-x-3">
@@ -150,7 +150,7 @@ const Index = () => {
                     Kit completo de atividades bíblicas
                   </h3>
                   <p className="text-sm md:text-base text-muted-foreground">
-                    Em PDF com mais de 600 páginas, criadas por educadores cristãos experientes.
+                    Em PDF com mais de 400 atividades, criadas por educadores cristãos experientes.
                   </p>
                 </div>
               </div>
@@ -234,7 +234,7 @@ const Index = () => {
               </div>
               <div className="rounded-lg overflow-hidden shadow-card border border-border bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center p-4">
                 <p className="text-center font-bold text-foreground text-sm md:text-base">
-                  +390<br />Atividades
+                  +400<br />Atividades
                 </p>
               </div>
             </div>
