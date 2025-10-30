@@ -47,10 +47,10 @@ const Index = () => {
               <p className="text-base md:text-lg font-semibold">
                 ✨ Tudo 100% pronto para você:
 <p className="text-base md:text-lg font-semibold">✅ Página de vendas completa</p>
-✅ Criativos e copys profissionais
-✅ Artes exclusivas para área de membros
-✅ Licença PLR TOTAL — revenda com liberdade total
-✅ Plano de Ação com estratégias de venda testadas e aprovadas
+<p className="text-base md:text-lg font-semibold">✅ Criativos e copys profissionais</p>
+<p className="text-base md:text-lg font-semibold">✅ Artes exclusivas para área de membros</p>
+<p className="text-base md:text-lg font-semibold">✅ Licença PLR TOTAL — revenda com liberdade total</p>
+<p className="text-base md:text-lg font-semibold">✅ Plano de Ação com estratégias de venda testadas e aprovadas</p>
 
 💡 Comece hoje, multiplique seu propósito e viva do que você acredita!
               </p>
