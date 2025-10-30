@@ -45,12 +45,12 @@ const Index = () => {
                 🚀 SEJA DONO(A) DO SEU PRÓPRIO PRODUTO CRISTÃO E LUCRE 100%!Transforme sua fé em renda <span className="font-bold underline">comece hoje mesmo a faturar de R$2.000 a R$5.000 por mês!</span>, <span className="font-bold underline"></span>
               </p>
               <p className="text-base md:text-lg font-semibold">
-                ✨ Tudo 100% pronto para você:\n
-✅ Página de vendas completa\n
-✅ Criativos e copys profissionais\n
-✅ Artes exclusivas para área de membros\n
-✅ Licença PLR TOTAL — revenda com liberdade total\n
-✅ Plano de Ação com estratégias de venda testadas e aprovadas\n
+                ✨ Tudo 100% pronto para você:/n
+✅ Página de vendas completa/n
+✅ Criativos e copys profissionais/n
+✅ Artes exclusivas para área de membros/n
+✅ Licença PLR TOTAL — revenda com liberdade total/n
+✅ Plano de Ação com estratégias de venda testadas e aprovadas/n
 
 💡 Comece hoje, multiplique seu propósito e viva do que você acredita!
               </p>
