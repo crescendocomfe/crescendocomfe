@@ -3,6 +3,7 @@ import { TestimonialCard } from "@/components/TestimonialCard";
 import { BonusCard } from "@/components/BonusCard";
 import { CTAButton } from "@/components/CTAButton";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
 import { 
   BookOpen, 
@@ -533,6 +534,87 @@ const Index = () => {
             <CTAButton>
               💜 BAIXAR O KIT CRESCENDO COM FÉ AGORA
             </CTAButton>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="py-12 md:py-20 px-4 bg-gradient-to-b from-secondary/10 to-background">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-8 md:mb-12">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
+              💬 Dúvidas Frequentes
+            </h2>
+          </div>
+          
+          <Accordion type="single" collapsible className="space-y-4">
+            <AccordionItem value="item-1" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                ⏰ Quanto tempo demora para receber o material?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground space-y-2">
+                <p>Assim que o pagamento é confirmado via Cartão de Crédito, Débito ou Pix, o acesso é liberado imediatamente.</p>
+                <p>Pagamentos via boleto bancário podem levar até 3 dias úteis para compensação.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-2" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                📩 Como vou receber as apostilas?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground space-y-2">
+                <p>Logo após a confirmação da compra, você receberá um e-mail com o acesso à área de membros da Hotmart, onde todo o conteúdo está disponível.</p>
+                <p>Lá você encontrará todas as apostilas em PDF prontas para baixar.</p>
+                <p>A partir daí, é só imprimir e começar sua jornada educativa com seu pequeno — de forma prática, rápida e divertida!</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-3" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                📘 Qual é o formato das apostilas?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                <p>Os cadernos são arquivos digitais (PDF), prontos para imprimir e usar quantas vezes quiser.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-4" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                📱 Posso acessar pelo celular?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                <p>Sim! Todo o material pode ser acessado pelo celular, computador ou tablet, quando e onde quiser.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-5" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                ♾️ Por quanto tempo terei acesso?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                <p>O acesso é vitalício! Você poderá aproveitar todo o conteúdo e os bônus exclusivos para sempre — sem prazo de expiração.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                💳 É pagamento único?
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground">
+                <p>Sim! Você paga uma única vez e garante acesso completo ao material adquirido, podendo baixar e reutilizar quantas vezes desejar.</p>
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-7" className="bg-white rounded-lg shadow-card border border-border px-6">
+              <AccordionTrigger className="text-left font-semibold hover:no-underline">
+                💎 GARANTIA TOTAL
+              </AccordionTrigger>
+              <AccordionContent className="text-muted-foreground space-y-2">
+                <p>Confiamos tanto na qualidade do nosso material que oferecemos 7 dias de garantia incondicional.</p>
+                <p>Se por qualquer motivo você não amar o conteúdo, devolvemos 100% do seu dinheiro.</p>
+                <p className="font-semibold">Sem burocracia. Sem pegadinhas. 💖</p>
+              </AccordionContent>
+            </AccordionItem>
+          </Accordion>
         </div>
       </section>
 
