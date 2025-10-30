@@ -123,7 +123,7 @@ const Index = () => {
               </div>
               <div className="mt-6 p-4 bg-white/10 rounded-lg border-l-4 border-accent">
                 <p className="text-sm md:text-base font-semibold italic">
-                  💡 Se você respondeu "sim" para qualquer uma dessas perguntas, o Histórias de Luz foi feito especialmente para você.
+                    💡 Se você respondeu "sim" para qualquer uma dessas perguntas, o CRESCENDO COM FÉ foi feito especialmente para você.
                 </p>
               </div>
             </div>
