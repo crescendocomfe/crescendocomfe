@@ -2,6 +2,7 @@ import { ContentCard } from "@/components/ContentCard";
 import { TestimonialCard } from "@/components/TestimonialCard";
 import { BonusCard } from "@/components/BonusCard";
 import { CTAButton } from "@/components/CTAButton";
+import { SalesNotification } from "@/components/SalesNotification";
 import { Carousel, CarouselContent, CarouselItem } from "@/components/ui/carousel";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import Autoplay from "embla-carousel-autoplay";
@@ -36,6 +37,7 @@ import aprendendoOrar from "@/assets/aprendendo-orar.png";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SalesNotification />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-hero py-8 md:py-16 px-4">
         <div className="container mx-auto max-w-6xl relative z-10">
@@ -370,13 +372,13 @@ const Index = () => {
       </section>
 
       {/* Bonus Section */}
-      <section className="py-12 md:py-20 px-4">
+      <section className="py-12 md:py-20 px-4 bg-primary text-white">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-8 md:mb-16 space-y-3 md:space-y-4">
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground px-4">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-white px-4">
               💰 Bônus Exclusivos
             </h2>
-            <p className="text-base md:text-lg text-muted-foreground px-4">
+            <p className="text-base md:text-lg text-white/90 px-4">
               Agregamos ainda mais valor ao seu investimento!
             </p>
           </div>

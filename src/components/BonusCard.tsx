@@ -9,11 +9,11 @@ interface BonusCardProps {
 
 export const BonusCard = ({ number, title, description }: BonusCardProps) => {
   return (
-    <Card className="p-6 bg-gradient-to-br from-warning/20 to-secondary/20 border-2 border-warning/40 shadow-card hover:shadow-soft transition-all duration-300 hover:scale-105">
+    <Card className="p-6 bg-white border-2 border-accent shadow-card hover:shadow-soft transition-all duration-300 hover:scale-105">
       <div className="flex items-start space-x-4">
         <div className="flex-shrink-0">
-          <div className="w-12 h-12 rounded-full bg-warning flex items-center justify-center">
-            <Gift className="w-6 h-6 text-warning-foreground" />
+          <div className="w-12 h-12 rounded-full bg-accent flex items-center justify-center">
+            <Gift className="w-6 h-6 text-accent-foreground" />
           </div>
         </div>
         <div className="flex-1">
