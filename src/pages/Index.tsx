@@ -319,17 +319,17 @@ const Index = () => {
       </section>
 
       {/* Income Opportunity Section - Destacado */}
-      <section className="py-10 md:py-16 px-4 bg-gradient-to-br from-accent/20 via-accent/10 to-background relative overflow-hidden">
+      <section className="py-10 md:py-16 px-4 bg-primary text-white relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmMxMDciIGZpbGwtb3BhY2l0eT0iMC4wNSI+PHBhdGggZD0iTTM2IDE4YzIuMjEgMCA0LTEuNzkgNC00cy0xLjc5LTQtNC00LTQgMS43OS00IDQgMS43OSA0IDQgNHoiLz48L2c+PC9nPjwvc3ZnPg==')] opacity-40"></div>
         <div className="container mx-auto max-w-6xl relative z-10">
           <div className="text-center mb-6 md:mb-10 space-y-3 md:space-y-5">
             <div className="inline-block bg-accent text-accent-foreground px-4 py-2 rounded-full font-bold text-sm md:text-base mb-2">
               ⚡ OPORTUNIDADE DE RENDA
             </div>
-            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-foreground px-4">
+            <h2 className="text-2xl md:text-4xl lg:text-5xl font-heading font-bold text-white px-4">
               💰 Transforme Propósito em Renda Extra
             </h2>
-            <p className="text-base md:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
+            <p className="text-base md:text-xl text-white/90 max-w-3xl mx-auto px-4">
               Além de ensinar a fé, você pode criar uma fonte de renda abençoada revendendo o kit
             </p>
           </div>
