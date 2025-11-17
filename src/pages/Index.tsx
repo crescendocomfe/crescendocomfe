@@ -20,9 +20,8 @@ import {
   Sprout
 } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
-import testimonial1 from "@/assets/testimonial-1.jpg";
-import testimonial2 from "@/assets/testimonial-2.jpg";
-import testimonial3 from "@/assets/testimonial-3.jpg";
+import testimonialEduardo from "@/assets/testimonial-eduardo.jpg";
+import testimonialAmanda from "@/assets/testimonial-amanda.png";
 import productFeatures from "@/assets/product-features.png";
 import productActivity from "@/assets/product-activity.png";
 import creatorPhoto from "@/assets/creator-photo.png";
@@ -435,24 +434,18 @@ const Index = () => {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl mx-auto">
             <TestimonialCard 
-              image={testimonial1}
-              name="Camila"
-              role="Mãe e educadora cristã"
-              testimonial="Meu filho ama as atividades! Finalmente um material que fala de Deus de forma divertida."
+              image={testimonialEduardo}
+              name="Eduardo"
+              role="Aluno Crescendo com Fé"
+              testimonial="Quero te agradecer de verdade. Em apenas 10 dias consegui 228 vendas e quase R$ 5.000 em faturamento. Nunca imaginei que seria possível tão rápido. Sou muito grato por todo o aprendizado, isso mudou completamente a minha visão!"
             />
             <TestimonialCard 
-              image={testimonial2}
-              name="Tânia"
-              role="Professora infantil"
-              testimonial="Uso nas aulas da escolinha dominical e as crianças ficam encantadas!"
-            />
-            <TestimonialCard 
-              image={testimonial3}
-              name="Mariana"
-              role="Empreendedora cristã"
-              testimonial="Vendi mais de 30 kits em 2 semanas. É uma renda com propósito!"
+              image={testimonialAmanda}
+              name="Amanda"
+              role="Aluna Crescendo com Fé"
+              testimonial="Em apenas 30 dias consegui bater 10k, já com o kit Crescendo com Fé! Eu não entendia nada de Canva nem de vendas, mas segui o passo a passo e o resultado veio. Obrigada por compartilhar esse projeto abençoado, foi um divisor de águas na minha vida e na minha família!"
             />
           </div>
         </div>
