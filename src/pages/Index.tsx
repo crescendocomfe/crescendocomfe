@@ -667,7 +667,7 @@ const Index = () => {
                     rel="noopener noreferrer"
                     className="hover:text-primary transition-colors flex items-center gap-2"
                   >
-                    <svg <Instagram className="w-4 h-4" /> />
+                  <Instagram className="w-4 h-4" />
                     @crescendocomfe2
                   </a>
 
