@@ -21,7 +21,7 @@ import {
 } from "lucide-react";
 import heroImage from "@/assets/hero-image.jpg";
 import testimonialEduardo from "@/assets/testimonial-eduardo.jpg";
-import testimonialAmanda from "@/assets/testimonial-amanda.png";
+import testimonialAmanda from "@/assets/testimonial-amanda.jpg";
 import productFeatures from "@/assets/product-features.png";
 import productActivity from "@/assets/product-activity.png";
 import creatorPhoto from "@/assets/creator-photo.png";
