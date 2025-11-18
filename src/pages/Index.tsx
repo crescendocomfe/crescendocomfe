@@ -658,7 +658,7 @@ const Index = () => {
               <div className="space-y-2 text-muted-foreground text-sm">
                 <p className="flex items-center justify-center md:justify-start space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>suporte@crescendocomfe.com</span>
+                  <span>crescendocomfe2@gmail.com</span>
                 </p>
                 <p className="flex items-center justify-center md:justify-start space-x-2">
                   <Instagram className="w-4 h-4" />
