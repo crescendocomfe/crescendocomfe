@@ -18,10 +18,10 @@ export const CTAButton = ({ children, size = "lg", className }: CTAButtonProps) 
       variant="cta" 
       size={size}
       onClick={handleClick}
-      className={`text-base md:text-lg px-8 py-6 rounded-full ${className}`}
+      className={`text-sm md:text-base lg:text-lg px-4 py-3 md:px-6 md:py-4 lg:px-8 lg:py-6 rounded-full w-full md:w-auto ${className}`}
     >
-      {children}
-      <ArrowRight className="ml-2 w-5 h-5" />
+      <span className="flex-1 text-center">{children}</span>
+      <ArrowRight className="ml-2 w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
     </Button>
   );
 };
