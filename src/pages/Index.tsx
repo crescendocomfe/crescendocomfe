@@ -372,17 +372,17 @@ const Index = () => {
             </div>
             
             <div className="grid grid-cols-3 gap-3 md:gap-6 pt-4 md:pt-6">
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4">
-                <div className="text-3xl md:text-5xl font-bold text-accent">100%</div>
-                <p className="text-xs md:text-sm text-white/90 mt-1">dos lucros são seus</p>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 flex flex-col items-center justify-center">
+                <div className="text-3xl md:text-5xl font-bold text-accent leading-none">100%</div>
+                <p className="text-xs md:text-sm text-white/90 mt-2 text-center">dos lucros são seus</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4">
-                <div className="text-3xl md:text-5xl font-bold text-accent">PLR</div>
-                <p className="text-xs md:text-sm text-white/90 mt-1">Licença completa inclusa</p>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 flex flex-col items-center justify-center">
+                <div className="text-3xl md:text-5xl font-bold text-accent leading-none">PLR</div>
+                <p className="text-xs md:text-sm text-white/90 mt-2 text-center">Licença completa inclusa</p>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4">
-                <div className="text-3xl md:text-5xl font-bold text-accent">∞</div>
-                <p className="text-xs md:text-sm text-white/90 mt-1">Vendas ilimitadas</p>
+              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 md:p-6 flex flex-col items-center justify-center">
+                <div className="text-3xl md:text-5xl font-bold text-accent leading-none">∞</div>
+                <p className="text-xs md:text-sm text-white/90 mt-2 text-center">Vendas ilimitadas</p>
               </div>
             </div>
 
