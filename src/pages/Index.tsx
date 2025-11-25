@@ -536,7 +536,7 @@ const Index = () => {
               </div>
             </div>
             <CTAButton>
-              🟣 QUERO GARANTIR MEU ACESSO AGORA!
+              🟣 QUERO GARANTIR MEU ACESSO!
             </CTAButton>
           </div>
         </div>
@@ -554,7 +554,7 @@ const Index = () => {
             O futuro da próxima geração começa no seu lar."
           </h2>
             <CTAButton>
-              💜 BAIXAR O KIT CRESCENDO COM FÉ AGORA
+              💜 BAIXAR O KIT CRESCENDO COM FÉ
             </CTAButton>
         </div>
       </section>
