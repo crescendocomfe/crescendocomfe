@@ -38,29 +38,29 @@ import activityPaiNosso from "@/assets/activity-pai-nosso.png";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background overflow-x-hidden">
       <SalesNotification />
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-hero py-8 md:py-16 px-4">
-        <div className="container mx-auto max-w-6xl relative z-10">
-          <div className="grid md:grid-cols-2 gap-6 md:gap-10 items-center">
-            <div className="text-white space-y-4 md:space-y-5 animate-fade-in">
-              <h1 className="text-xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight uppercase">
+      <section className="relative overflow-hidden bg-gradient-hero py-6 md:py-16 px-3 md:px-4">
+        <div className="container mx-auto max-w-6xl relative z-10 px-2 md:px-0">
+          <div className="grid md:grid-cols-2 gap-4 md:gap-10 items-center">
+            <div className="text-white space-y-3 md:space-y-5 animate-fade-in">
+              <h1 className="text-lg md:text-4xl lg:text-5xl font-heading font-bold leading-tight uppercase break-words">
                 OFERTA EXCLUSIVA
               </h1>
-              <p className="text-sm md:text-xl lg:text-2xl leading-snug md:leading-tight">
+              <p className="text-xs md:text-xl lg:text-2xl leading-relaxed md:leading-tight break-words">
                 🚀 SEJA DONO(A) DO SEU PRÓPRIO PRODUTO CRISTÃO E LUCRE 100%! Transforme sua fé em renda <span className="font-bold underline">comece hoje mesmo a faturar de R$2.000 a R$5.000 por mês!</span>
-              </p> 
-              <div className="space-y-2 md:space-y-3">
-                <p className="text-sm md:text-lg font-semibold">
+              </p>
+              <div className="space-y-1.5 md:space-y-3">
+                <p className="text-xs md:text-lg font-semibold break-words">
                   ✨ Tudo 100% pronto para você:
                 </p>
-                <p className="text-xs md:text-base font-medium">✅ Página de vendas completa</p>
-                <p className="text-xs md:text-base font-medium">✅ Criativos e copys profissionais</p>
-                <p className="text-xs md:text-base font-medium">✅ Artes exclusivas para área de membros</p>
-                <p className="text-xs md:text-base font-medium">✅ Licença PLR TOTAL — revenda com liberdade total</p>
-                <p className="text-xs md:text-base font-medium">✅ Plano de Ação com estratégias de venda testadas e aprovadas</p>
-                <p className="text-sm md:text-lg font-semibold mt-3 md:mt-4">💡 Comece hoje, multiplique seu propósito e viva do que você acredita!</p>
+                <p className="text-[11px] md:text-base font-medium break-words">✅ Página de vendas completa</p>
+                <p className="text-[11px] md:text-base font-medium break-words">✅ Criativos e copys profissionais</p>
+                <p className="text-[11px] md:text-base font-medium break-words">✅ Artes exclusivas para área de membros</p>
+                <p className="text-[11px] md:text-base font-medium break-words">✅ Licença PLR TOTAL — revenda com liberdade total</p>
+                <p className="text-[11px] md:text-base font-medium break-words">✅ Plano de Ação com estratégias de venda testadas e aprovadas</p>
+                <p className="text-xs md:text-lg font-semibold mt-2 md:mt-4 break-words">💡 Comece hoje, multiplique seu propósito e viva do que você acredita!</p>
               </div>
               <CTAButton>
                 🟣 QUERO GARANTIR MEU ACESSO AGORA!
