@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   // 👇 aqui entra o NOME DO REPO
-  base: mode === "production" ? "/crescendocomfe/" : "/",
+  base: mode === "production" ? "/kit-infantil/" : "/",
 
   server: {
     host: "::",
